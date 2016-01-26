@@ -104,7 +104,7 @@
   <key>keyEquivalent</key>
   <string>^~R</string>
   <key>name</key>
-  <string>BetterRuby</string>
+  <string>Ruby</string>
   <key>patterns</key>
   <array>
     <dict>

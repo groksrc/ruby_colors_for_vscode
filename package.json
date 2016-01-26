@@ -2,7 +2,7 @@
 	"name": "ruby",
 	"displayName": "Ruby Language Colorization",
 	"description": "Adds support for Ruby colorization to Visual Studio Code",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"publisher": "groksrc",
 	"engines": {
 		"vscode": "^0.10.1"
@@ -18,7 +18,7 @@
 	"contributes": {
 		"languages": [{
 			"id": "ruby",
-			"aliases": ["BetterRuby", "ruby"],
+			"aliases": ["Ruby", "ruby"],
 			"extensions": [".rb",".rbx",".rjs",".Rakefile",".rake",".cgi",".fcgi",".gemspec",".irbrc",".capfile",".ru",".prawn",".Gemfile",".Guardfile",".Vagrantfile"],
 			"configuration": "./ruby.configuration.json"
 		}],
