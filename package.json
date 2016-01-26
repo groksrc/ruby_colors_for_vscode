@@ -1,0 +1,27 @@
+{
+	"name": "ruby",
+	"displayName": "Ruby Language Colorization",
+	"description": "Adds support for Ruby colorization to vscode",
+	"version": "0.0.2",
+	"publisher": "groksrc",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+    "icon": "images/ruby.png",
+	"categories": [
+		"Languages"
+	],
+	"contributes": {
+		"languages": [{
+			"id": "ruby",
+			"aliases": ["BetterRuby", "ruby"],
+			"extensions": [".rb",".rbx",".rjs",".Rakefile",".rake",".cgi",".fcgi",".gemspec",".irbrc",".capfile",".ru",".prawn",".Gemfile",".Guardfile",".Vagrantfile"],
+			"configuration": "./ruby.configuration.json"
+		}],
+		"grammars": [{
+			"language": "ruby",
+			"scopeName": "source.ruby",
+			"path": "./syntaxes/ruby.tmLanguage"
+		}]
+	}
+}
