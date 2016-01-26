@@ -2,7 +2,7 @@
 	"name": "ruby",
 	"displayName": "Ruby Language Colorization",
 	"description": "Adds support for Ruby colorization to Visual Studio Code",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"publisher": "groksrc",
 	"engines": {
 		"vscode": "^0.10.1"
