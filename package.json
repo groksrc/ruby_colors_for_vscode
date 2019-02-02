@@ -2,30 +2,53 @@
 	"name": "ruby",
 	"displayName": "Ruby Language Colorization",
 	"description": "Adds support for Ruby colorization to Visual Studio Code",
-	"version": "0.0.7",
+	"version": "0.1.0",
 	"publisher": "groksrc",
 	"engines": {
 		"vscode": "^0.10.1"
 	},
-    "icon": "images/ruby.png",
+	"icon": "images/ruby.png",
 	"categories": [
 		"Languages"
 	],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/groksrc/ruby_colors_for_vscode"
-    },
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/groksrc/ruby_colors_for_vscode"
+	},
 	"contributes": {
-		"languages": [{
-			"id": "ruby",
-			"aliases": ["Ruby", "ruby"],
-			"extensions": [".rb",".rbx",".rjs",".Rakefile",".rake",".cgi",".fcgi",".gemspec",".irbrc",".capfile",".ru",".prawn",".Gemfile",".Guardfile",".Vagrantfile"],
-			"configuration": "./ruby.configuration.json"
-		}],
-		"grammars": [{
-			"language": "ruby",
-			"scopeName": "source.ruby",
-			"path": "./syntaxes/ruby.tmLanguage"
-		}]
+		"languages": [
+			{
+				"id": "ruby",
+				"aliases": [
+					"Ruby",
+					"ruby"
+				],
+				"extensions": [
+					".rb",
+					".rbx",
+					".rjs",
+					".Rakefile",
+					".rake",
+					".cgi",
+					".fcgi",
+					".gemspec",
+					".irbrc",
+					".capfile",
+					".ru",
+					".prawn",
+					".Gemfile",
+					".Guardfile",
+					".Vagrantfile"
+				],
+				"configuration": "./ruby.configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "ruby",
+				"scopeName": "source.ruby",
+				"path": "./syntaxes/ruby.tmLanguage"
+			}
+		]
 	}
 }
